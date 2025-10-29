@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class NilaiKelompok12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int i = 1;
         float totalNilai;
         float rataNilai;
@@ -18,7 +17,6 @@ public class NilaiKelompok12 {
                 float nilai = sc.nextFloat();
                 totalNilai += nilai;
             }
-
             rataNilai = totalNilai / 5;
             System.out.println("Kelompok " + i + " : nilai rata-rata = " + rataNilai);
             if (rataNilai > rataTertinggi) {
@@ -28,7 +26,7 @@ public class NilaiKelompok12 {
 
             i++;
         }
-        
+
         System.out.println("\nKelompok dengan nilai rata-rata tertinggi adalah Kelompok " + kelompokTertinggi + " dengan nilai " + rataTertinggi);
 
         sc.close();
