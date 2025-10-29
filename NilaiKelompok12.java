@@ -29,8 +29,7 @@ public class NilaiKelompok12 {
             i++;
         }
         
-        System.out.println("\nKelompok dengan nilai rata-rata tertinggi adalah Kelompok " 
-                            + kelompokTertinggi + " dengan nilai " + rataTertinggi);
+        System.out.println("\nKelompok dengan nilai rata-rata tertinggi adalah Kelompok " + kelompokTertinggi + " dengan nilai " + rataTertinggi);
 
         sc.close();
     }
